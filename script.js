@@ -22,7 +22,7 @@ window.onbeforeunload = function () {
 }
 
 //Detects Clicks
-document.getElementById("q1a2").className += " selected";
+document.getElementById("q1a2").className += " selected ";
 
 
 

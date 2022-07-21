@@ -39,15 +39,13 @@ h2 {
 
 @media (max-width: 695px) {
   .question {
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
   }
   .answer-choice img {
     max-width: 100em;
     max-height: 100em;
     border-radius: 3%;
-
-}
+  }
 }  
 
 /* STYLE FLEX ITEM */
