@@ -1,0 +1,110 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 5em;
+  margin: 4em;
+  text-align: center;
+  background-color: #fff7f5;
+
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Orelega One', cursive;
+  font-style: italic;
+  font-size: 3em;
+
+  color: #000000;
+
+  text-shadow: 5px 5px 5px #cdc1c1;
+
+}
+p {
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 0%;
+  margin-left: 1%;
+  margin-top: 10em;
+}
+
+
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+}
+
+@media (max-width: 695px) {
+  .question {
+    flex-wrap: wrap;
+    
+  }
+  .answer-choice img {
+    max-width: 100em;
+    max-height: 100em;
+    border-radius: 3%;
+
+}
+}  
+
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 1%;
+  align-items: center;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 3%;
+
+}
+
+img { 
+
+}
+
+/* STYLE BUTTON */
+button {
+  
+  background-color: #fff7f5;
+  border-radius: 4px;
+  border-width: 0px;
+  box-shadow: #605a6c 0 2px 4px, #8b8891 0 5px 13px 5px,#b69ab6 0 -3px 0 inset;
+  box-sizing: border-box;
+  margin-top: 0.2em;
+  
+  cursor: pointer;
+  font-family: 'Ubuntu Mono', monospace;
+
+  height: 2em;  
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  position: relative;
+  text-align: center;
+}
+.selected {
+
+  background-color: #dacdd7;
+  border-radius: 4px;
+  border-width: 0px;
+  box-shadow: #524d5b 0 2px 4px, #e5e0e3 0 5px 13px 5px, #a199a8 0 -3px 0 inset;
+  box-sizing: border-box;
+
+  margin-top: 0.3em;
+  
+  cursor: pointer;
+  font-family: 'Ubuntu Mono', monospace;
+
+  height: 2em;  
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  position: relative;
+  text-align: center;
+}
