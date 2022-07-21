@@ -35,23 +35,27 @@ h2 {
 /* STYLE FLEX CONTAINER */
 .question {
   display: flex;
+  vertical-align: middle;
 }
 
-@media (max-width: 695px) {
+@media (max-width: 600px) {
   .question {
     flex-wrap: wrap; 
   }
   .answer-choice img {
-    max-width: 100em;
-    max-height: 100em;
+    max-width: 75em;
+    max-height: 75em;
     border-radius: 3%;
+
+    z-index: 999;
+
   }
 }  
 
 /* STYLE FLEX ITEM */
 .answer-choice {
   margin: 1%;
-  align-items: center;
+  align: center;
 }
 
 /* STYLE IMAGES */
@@ -67,14 +71,58 @@ img {
 }
 
 /* STYLE BUTTON */
-button {
+.button {
+
+  float: center;
+  position: relative;
   
   background-color: #fff7f5;
   border-radius: 4px;
   border-width: 0px;
+  max-width: 100px;
   box-shadow: #605a6c 0 2px 4px, #8b8891 0 5px 13px 5px,#b69ab6 0 -3px 0 inset;
   box-sizing: border-box;
+  
+  cursor: pointer;
+  font-family: 'Ubuntu Mono', monospace;
+
+  height: 2em;
   margin-top: 0.2em;
+
+}
+
+.button label {
+  display: block;
+  position: relative;
+  padding-top: 4px;
+  cursor: pointer;
+
+}
+
+.button input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: pink;
+}
+
+.button input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.button input[type="radio"]:checked + label {
+  background-color: #dacdd7;
+  border-radius: 4px;
+  border-width: 0px;
+  box-shadow: #524d5b 0 2px 4px, #e5e0e3 0 5px 13px 5px, #a199a8 0 -3px 0 inset;
+  box-sizing: border-box;
+
+  margin-top: 0.3em;
   
   cursor: pointer;
   font-family: 'Ubuntu Mono', monospace;
@@ -84,8 +132,8 @@ button {
   padding-right: 16px;
   padding-bottom: 4px;
   position: relative;
-  text-align: center;
 }
+
 .selected {
 
   background-color: #dacdd7;
@@ -106,3 +154,4 @@ button {
   position: relative;
   text-align: center;
 }
+
