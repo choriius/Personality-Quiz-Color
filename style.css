@@ -97,7 +97,7 @@ img {
 .button label {
   display: block;
   position: relative;
-  padding-top: 4px;
+  padding-top: 8px;
 
 }
 
@@ -130,5 +130,15 @@ img {
 
   height: 2em;  
   position: relative;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background: #dad8d8;
+  display: table;
+  margin: auto;
 }
 
