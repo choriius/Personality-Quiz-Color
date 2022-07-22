@@ -26,7 +26,7 @@
 		<h1 tabindex="0">what is your color?</h1>
 		<p>Ever wonder what color goes with your personality the best?  This quiz finds the one that best fit your vibes :D</p>
 
-    <img src="assets/whiteHeader.png" alt="Shadow of palm leaves on a white background">
+    <img src="assets/whiteHeader.png" alt="Shadow of palm leaves on a white background" aligh="center">
 	</header>
 
 	<main>
@@ -48,7 +48,7 @@
         <br>
         <div class="button">
           <input type="radio" id="q1a2" name="Q1"/>
-          <label id="q1a2">summer</label>
+          <label for="q1a2">summer</label>
         </div>
       </div>
       
@@ -57,7 +57,7 @@
         <br>
         <div class="button">
           <input type="radio" id="q1a3" name="Q1"/>
-          <label id="q1a3">autumn</label>
+          <label for="q1a3">autumn</label>
         </div>
       </div>
         
@@ -66,7 +66,7 @@
         <br>
         <div class="button">
           <input type="radio" id="q1a4" name="Q1"/>
-          <label id="q1a4">winter</label>
+          <label for="q1a4">winter</label>
         </div>
       </div> 
     </div>
@@ -83,8 +83,8 @@
         </div>
       </div>
 
-			<div class="answer-choice">
-				<img src="Q/2clean.png" alt="A striped black and white cat sitting upright with folded arms">
+      <div class="answer-choice">
+        <img src="Q/2clean.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
         <div class="button">
           <input type="radio" id="q2a2" name="Q2"/>
@@ -92,8 +92,8 @@
         </div>
       </div>
       
-			<div class="answer-choice">
-				<img src="Q/2fruity.png" alt="A striped black and white cat sitting upright with folded arms">
+      <div class="answer-choice">
+        <img src="Q/2fruity.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
         <div class="button">
           <input type="radio" id="q2a3" name="Q2"/>
@@ -101,54 +101,41 @@
         </div>
       </div>
       
-			<div class="answer-choice">
-				<img src="Q/2savory.png" alt="A striped black and white cat sitting upright with folded arms">
+      <div class="answer-choice">
+        <img src="Q/2savory.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
         <div class="button">
           <input type="radio" id="q2a4" name="Q2"/>
           <label for="q2a4">savory</label>
         </div>
       </div>
-    </div>
+    </div> 
 
     
     <h2 tabindex="3">Which room layout pleases your eyes?</h2>
     <div class="question">
 
 			<div class="answer-choice">
-				<img src="Q/2cute.png" alt="A striped black and white cat sitting upright with folded arms">
+				<img src="Q/3clean.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <div class="button">
-          <input type="radio" id="q3a1" name="Q3"/>
-          <label for="q3a1">clean</label>
-        </div>
+        <button id="q3a1">clean</button>
       </div>
 
-			<div class="answer-choice">
-				<img src="Q/3cute.png" alt="A striped black and white cat sitting upright with folded arms">
+      <div class="answer-choice">
+        <img src="Q/3cute.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <div class="button">
-          <input type="radio" id="q3a2" name="Q3"/>
-          <label for="q3a2">cute</label>
-        </div>
+        <button id="q3a2">cute</button>
       </div>
       
-			<div class="answer-choice">
-				<img src="Q/3modern.png" alt="A striped black and white cat sitting upright with folded arms">
+      <div class="answer-choice">
+        <img src="Q/3modern.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <div class="button">
-          <input type="radio" id="q3a3" name="Q3"/>
-          <label for="q3a3">modern</label>
-        </div>
+        <button id="q3a3">modern</button>
       </div>
-      
-			<div class="answer-choice">
-				<img src="Q/3plant.png" alt="A striped black and white cat sitting upright with folded arms">
+      <div class="answer-choice">
+        <img src="Q/3plant.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <div class="button">
-          <input type="radio" id="q3a4" name="Q3"/>
-          <label for="q3a4">plant mom</label>
-        </div>
+        <button id="q3a4">plant mom</button>
       </div>
     </div> 
 
@@ -208,9 +195,8 @@
       </div>
     </div>   
 
-    <br>
-    <br>
-    <h1 style="font-size: 24px; font-style: italic; margin-top: 15%;" id="resultGet">Your result is...</h1>
+    
+    <h2 style="text-decoration: underline; font-style: italic; font-weight: bold;" id="resultGet">Your result is...</h2>
   </main>
   </body>
 </html>
