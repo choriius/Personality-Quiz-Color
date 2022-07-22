@@ -26,7 +26,7 @@
 		<h1 tabindex="0">what is your color?</h1>
 		<p>Ever wonder what color goes with your personality the best?  This quiz finds the one that best fit your vibes :D</p>
 
-    <img src="assets/whiteHeader.png" alt="Shadow of palm leaves on a white background" aligh="center">
+    <img src="assets/whiteHeader.png" alt="Shadow of palm leaves on a white background">
 	</header>
 
 	<main>
@@ -77,52 +77,78 @@
 			<div class="answer-choice">
 				<img src="Q/2cute.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q2a1">cute</button>
+        <div class="button">
+          <input type="radio" id="q2a1" name="Q2"/>
+          <label for="q2a1">cute</label>
+        </div>
       </div>
 
-      <div class="answer-choice">
-        <img src="Q/2clean.png" alt="A striped black and white cat sitting upright with folded arms">
+			<div class="answer-choice">
+				<img src="Q/2clean.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q2a2">cream cheese</button>
+        <div class="button">
+          <input type="radio" id="q2a2" name="Q2"/>
+          <label for="q2a2">cream cheese</label>
+        </div>
       </div>
       
-      <div class="answer-choice">
-        <img src="Q/2fruity.png" alt="A striped black and white cat sitting upright with folded arms">
+			<div class="answer-choice">
+				<img src="Q/2fruity.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q2a3">apple</button>
+        <div class="button">
+          <input type="radio" id="q2a3" name="Q2"/>
+          <label for="q2a3">apple</label>
+        </div>
       </div>
-      <div class="answer-choice">
-        <img src="Q/2savory.png" alt="A striped black and white cat sitting upright with folded arms">
+      
+			<div class="answer-choice">
+				<img src="Q/2savory.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q2a4">savory</button>
+        <div class="button">
+          <input type="radio" id="q2a4" name="Q2"/>
+          <label for="q2a4">savory</label>
+        </div>
       </div>
-    </div> 
+    </div>
 
     
     <h2 tabindex="3">Which room layout pleases your eyes?</h2>
     <div class="question">
 
 			<div class="answer-choice">
-				<img src="Q/3clean.png" alt="A striped black and white cat sitting upright with folded arms">
+				<img src="Q/2cute.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q3a1">clean</button>
+        <div class="button">
+          <input type="radio" id="q3a1" name="Q3"/>
+          <label for="q3a1">clean</label>
+        </div>
       </div>
 
-      <div class="answer-choice">
-        <img src="Q/3cute.png" alt="A striped black and white cat sitting upright with folded arms">
+			<div class="answer-choice">
+				<img src="Q/3cute.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q3a2">cute</button>
+        <div class="button">
+          <input type="radio" id="q3a2" name="Q3"/>
+          <label for="q3a2">cute</label>
+        </div>
       </div>
       
-      <div class="answer-choice">
-        <img src="Q/3modern.png" alt="A striped black and white cat sitting upright with folded arms">
+			<div class="answer-choice">
+				<img src="Q/3modern.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q3a3">modern</button>
+        <div class="button">
+          <input type="radio" id="q3a3" name="Q3"/>
+          <label for="q3a3">modern</label>
+        </div>
       </div>
-      <div class="answer-choice">
-        <img src="Q/3plant.png" alt="A striped black and white cat sitting upright with folded arms">
+      
+			<div class="answer-choice">
+				<img src="Q/3plant.png" alt="A striped black and white cat sitting upright with folded arms">
         <br>
-        <button id="q3a4">plant mom</button>
+        <div class="button">
+          <input type="radio" id="q3a4" name="Q3"/>
+          <label for="q3a4">plant mom</label>
+        </div>
       </div>
     </div> 
 
@@ -182,8 +208,9 @@
       </div>
     </div>   
 
-    
-    <h2 style="text-decoration: underline; font-style: italic; font-weight: bold;" id="resultGet">Your result is...</h2>
+    <br>
+    <br>
+    <h1 style="font-size: 24px; font-style: italic; margin-top: 15%;" id="resultGet">Your result is...</h1>
   </main>
   </body>
 </html>

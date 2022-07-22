@@ -1,3 +1,5 @@
+
+
 //color score variables
 var color = ["tangerine",  //1
              "peach",      //2
@@ -15,11 +17,6 @@ var color = ["tangerine",  //1
 
 var score = [];
 var winColor = [];
-
-//resets page position
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
 
 //Detects Clicks
 //document.getElementById("q1a2").className += " selected ";

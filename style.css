@@ -55,7 +55,7 @@ h2 {
 /* STYLE FLEX ITEM */
 .answer-choice {
   margin: 1%;
-  align: center;
+  align-: center;
 }
 
 /* STYLE IMAGES */
@@ -67,6 +67,8 @@ h2 {
 }
 
 img { 
+  max-width: 100%;
+  max-height: 100%;
 
 }
 
@@ -74,7 +76,6 @@ img {
 .button {
 
   float: center;
-  position: relative;
   
   background-color: #fff7f5;
   border-radius: 4px;
@@ -87,16 +88,17 @@ img {
   font-family: 'Ubuntu Mono', monospace;
 
   height: 2em;
+  margin: auto;
   margin-top: 0.2em;
-
 }
 
 .button label {
   display: block;
   position: relative;
-  padding-top: 4px;
+  padding-top: 5px;
+  
   cursor: pointer;
-
+  
 }
 
 .button input {
@@ -106,13 +108,16 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 30px;
   background-color: pink;
+  
 }
 
 .button input[type="radio"] {
   opacity: 0.011;
   z-index: 100;
+
+  vertical-align: middle;
 }
 
 .button input[type="radio"]:checked + label {
@@ -128,8 +133,8 @@ img {
   font-family: 'Ubuntu Mono', monospace;
 
   height: 2em;  
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 4px;
   position: relative;
 }
@@ -155,3 +160,10 @@ img {
   text-align: center;
 }
 
+#resultGet:hover {
+  display: inline-flex;
+
+  background-color: #cdc1c1;
+  box-shadow: 0;
+  
+}
